@@ -39,7 +39,7 @@ endif()
 
 
 ## Include headers
-target_include_directories(${PROJECT_NAME} PRIVATE include)
+target_include_directories(${PROJECT_NAME} PUBLIC include)
 
 ## Uncomment for example
 # add_executable(serial_example examples/serial_example.cc)
